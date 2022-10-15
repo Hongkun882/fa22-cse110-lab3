@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Style the doc
 title: ''
 labels: ''
 assignees: ''

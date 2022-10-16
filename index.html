@@ -4,6 +4,8 @@
 <head>
     <title>Meeting Minutes</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
@@ -20,8 +22,9 @@
         <h1>Best NBA Players</h1>
         <hr>
         <section id="intro">
-            <h2>Agenda</h2>
-            <div id="topic">
+
+            <div class="in" id="topic">
+                <h2>Agenda</h2>
                 <ol>
                     <li><b> discuss which candidate is the best </b> </li>
                     <li>Why he is the best</li>
@@ -29,7 +32,7 @@
                 </ol>
             </div>
 
-            <div id="player">
+            <div class="in"  id="player">
                 <h2>Candidates</h2>
                 <ul>
                     <li><strong>Kobe Bryant</strong></li>
@@ -39,34 +42,53 @@
                 </ul>
             </div>
 
-            <div id="text">
-                <p>Lorem, ipsum <i>dolor</i> sit amet <em>consectetur</em> adipisicing elit. Id consequuntur deleniti
-                    odit ipsa inventore dicta pariatur, sit, explicabo hic vel molestias qui ipsam, ab esse enim? Amet
-                    nulla at sapiente.</p>
-                <br>
+            <div class="in"  id="text">
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum maiores, est illum adipisci
-                    recusandae maxime amet pariatur voluptatibus, id similique laudantium incidunt laborum delectus quo
-                    ut quia iure. Accusantium, vitae?
+                <p>
                     Reprehenderit itaque consectetur, <strong>quod natus ipsam</strong>, iste qui praesentium sapiente
                     accusantium eaque architecto? Tempore esse quidem nam quod quis temporibus beatae unde sint
                     repudiandae, fugit iste ipsum libero voluptatibus repellendus.
                     Alias soluta minus iste repellendus voluptates officiis, reiciendis quaerat esse nemo cum dolorem
                     nihil voluptatum beatae <i>repellat neque</i>, eos consectetur adipisci porro numquam? Provident
-                    nostrum
-                    vel adipisci reiciendis modi sapiente.</p>
+                    nostrum vel adipisci reiciendis modi sapiente.</p>
 
             </div>
 
         </section>
         <hr>
+        <h2>Flex Box</h2>
+        <section class="container">
+
+            <div class="cont1" id="first">This is first</div>
+
+            <div class="cont1" id="second">This is second</div>
+
+            <div class="cont1" id="third">This is third</div>
+        </section>
+        <hr>
+        <h2>Grid</h2>
+        <section class="container2">
+
+            <div class="cont2">This is first Grid</div>
+
+            <div class="cont2">This is second Grid</div>
+
+            <div class="cont2">This is third Grid</div>
+            <div class="cont2">This is forth Grid</div>
+        </section>
+
+        <hr>
         <section id="visual">
             <img src="https://library.sportingnews.com/styles/facebook_1200x630/s3/2021-08/kobe-bryant-getty-022720-ftrjpg_133gft6g4mxsu1jg75nkkmcln6.jpg?itok=JMNWBZ6N"
                 alt="Kobe" width="400" height="300">
+            <p>from 
+                "https://library.sportingnews.com/styles/facebook_1200x630/s3/2021-08/kobe-bryant-getty-022720-ftrjpg_133gft6g4mxsu1jg75nkkmcln6.jpg?itok=JMNWBZ6N"
+            </p>
             <br>
             <audio controls src="Dummy_voice.m4a"></audio>
-            <br>
+            
             <video controls src="kobe.mov" width="300" height="300"></video>
+            <p>from https://www.youtube.com/watch?v=GTJwoWHMEw0&t=846s </p>
         </section>
         <hr>
         <section id="de">
@@ -76,6 +98,8 @@
                 aspernatur. Aliquid eligendi odit sequi tempore modi laudantium, pariatur ad quam et veritatis animi hic
                 illo ullam?
             </details>
+            
+            <button id="but">Hello world!</button>
         </section>
 
         <form action="nowhere">
@@ -93,6 +117,7 @@
                 <br>
                 <input type="radio" id="bill" name="players">
                 <label for="bill">Bill Russell</label>
+                
             </fieldset>
             <br>
             <label for="date">Choose a date</label>
@@ -121,7 +146,7 @@
                 <option value="tiger">tiger</option>
             </select>
 
-            <button>submit</button>
+            <button id="but">submit</button>
         </form>
     </main>
 </body>

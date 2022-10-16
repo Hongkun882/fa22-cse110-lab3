@@ -1,0 +1,117 @@
+
+body{
+    font-family: 'Raleway', sans-serif;;
+}
+h1{
+    color: rgb(255, 170, 0);
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+}
+p{
+    font-size: 1.5rem;
+}
+
+#intro {
+    font-size: 2vh;
+    
+    
+}
+div.in{
+    height: 4in;
+    width: 500px;
+    
+    background-color: pink;
+    border-style:solid;
+    border-color: rgb(53, 66, 66);
+    border-width: 5px;
+    border-radius: 10%;
+    display: inline-block;
+}
+
+
+#topic{
+    font-size: 1em;
+    margin: 10px 10px 10px 10px;
+    padding: 2rem 2rem 1rem 1rem;
+    position: static;
+}
+
+#player{
+    text-align:left;
+    text-decoration:underline solid;
+    color: blue;
+    position: sticky;
+    top: 20px;
+}
+
+
+#but:hover{
+    color: red;
+    background-color: bisque;
+}
+#but:active{
+    background-color: black;
+    color:white;
+}
+
+#audio{
+    display: inline;
+}
+
+.cont1{
+    height: 2in;
+    width: 300px;
+    background-color: rgb(205, 82, 209);
+    border-style:solid;
+    border-color: rgb(53, 66, 66);
+    border-width: 2px;
+    border-radius: 10%;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+#first{
+
+    background-color: aqua;
+}
+
+#second{
+    background-color: cornsilk;
+}
+
+
+.container2{
+
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    grid-template-rows: 200px;
+    grid-gap: 80px;
+    justify-content: center;
+}
+.cont2{
+    height: 2in;
+    width: 300px;
+    background-color: rgb(129, 209, 82);
+    border-style:solid;
+    border-color: black;
+    border-width: 2px;
+    
+}
+
+@media (max-width: 1000px) {
+    body{
+        background-color: coral;
+    }
+    h1{
+        color:rebeccapurple;
+    }
+}
